@@ -1,0 +1,85 @@
+{
+  "resource": "/waitlistapi1",
+  "path": "/waitlistapi1",
+  "httpMethod": "POST",
+  "headers": {
+    "Accept": "*/*",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Content-Type": "application/json",
+    "Host": "vw44pklarc.execute-api.eu-central-1.amazonaws.com",
+    "Postman-Token": "02b696d4-fffd-4d30-bf58-08ed81adcee7",
+    "User-Agent": "PostmanRuntime/7.32.2",
+    "X-Amzn-Trace-Id": "Root=1-6466565a-1153e1a1475d030829e5a669",
+    "X-Forwarded-For": "159.224.97.78",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https"
+  },
+  "multiValueHeaders": {
+    "Accept": [
+      "*/*"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Host": [
+      "vw44pklarc.execute-api.eu-central-1.amazonaws.com"
+    ],
+    "Postman-Token": [
+      "02b696d4-fffd-4d30-bf58-08ed81adcee7"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.32.2"
+    ],
+    "X-Amzn-Trace-Id": [
+      "Root=1-6466565a-1153e1a1475d030829e5a669"
+    ],
+    "X-Forwarded-For": [
+      "159.224.97.78"
+    ],
+    "X-Forwarded-Port": [
+      "443"
+    ],
+    "X-Forwarded-Proto": [
+      "https"
+    ]
+  },
+  "queryStringParameters": null,
+  "multiValueQueryStringParameters": null,
+  "pathParameters": null,
+  "stageVariables": null,
+  "requestContext": {
+    "resourceId": "ni0e5k",
+    "resourcePath": "/waitlistapi1",
+    "httpMethod": "POST",
+    "extendedRequestId": "FIJuPGxaFiAFWqQ=",
+    "requestTime": "18/May/2023:16:46:18 +0000",
+    "path": "/stage/waitlistapi1",
+    "accountId": "596256565227",
+    "protocol": "HTTP/1.1",
+    "stage": "stage",
+    "domainPrefix": "vw44pklarc",
+    "requestTimeEpoch": 1684428378891,
+    "requestId": "b37bf932-6726-4120-9f1e-16943d3c5515",
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "accountId": null,
+      "cognitoIdentityId": null,
+      "caller": null,
+      "sourceIp": "159.224.97.78",
+      "principalOrgId": null,
+      "accessKey": null,
+      "cognitoAuthenticationType": null,
+      "cognitoAuthenticationProvider": null,
+      "userArn": null,
+      "userAgent": "PostmanRuntime/7.32.2",
+      "user": null
+    },
+    "domainName": "vw44pklarc.execute-api.eu-central-1.amazonaws.com",
+    "apiId": "vw44pklarc"
+  },
+  "body": "{\n    \"name\": \"Some name\",\n    \"email\": \"a@mail.com\",\n    \"phone\": \"0993827376\",\n    \"representative\": \"user\",\n    \"organization\": \"Org\",\n    \"message\": \"Some message\",\n    \"agreement\": true\n}",
+  "isBase64Encoded": false
+}

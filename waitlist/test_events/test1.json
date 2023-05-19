@@ -1,0 +1,16 @@
+{
+  "httpMethod": "POST",
+  "path": "/waitlistapi1",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "name": "Event name",
+    "email": "event@mail.com",
+    "phone": "0993827376",
+    "representative": "Event",
+    "organization": "Evnet",
+    "message": "Event message",
+    "agreement": true
+  }
+}

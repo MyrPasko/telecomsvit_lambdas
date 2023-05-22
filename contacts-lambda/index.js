@@ -1,6 +1,6 @@
 const awsServerlessExpress = require('aws-serverless-express');
 const app = require('./app');
-const {v4 : uuidv4} = require('uuid')
+const { v4: uuidv4 } = require('uuid');
 
 /**
  * @type {import('http').Server}
@@ -12,7 +12,7 @@ const server = awsServerlessExpress.createServer(app);
  */
 exports.handler = async (event, context) => {
   try {
-    console.log(`EVENT: ${JSON.stringify(event)}`);
+    console.log(`EVENT Contact: ${JSON.stringify(event)}`);
 
     const id = uuidv4();
 
@@ -34,7 +34,7 @@ exports.handler = async (event, context) => {
 
     return await awsServerlessExpress.proxy(server, requestData, context, 'PROMISE').promise;
   } catch (error) {
-    console.error(error);
+    console.error('ERROR Contact: ', error);
 
     return {
       statusCode: 500,
@@ -42,4 +42,3 @@ exports.handler = async (event, context) => {
     };
   }
 };
-

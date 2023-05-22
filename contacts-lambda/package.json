@@ -1,7 +1,7 @@
 {
-  "name": "waitlist",
+  "name": "contacts-lambda",
   "version": "1.0.0",
-  "description": "Lambda for waitlist (telecomsvit)",
+  "description": "Lambda POST contact (telecomsvit)",
   "main": "index.js",
   "author": "",
   "license": "Apache-2.0",

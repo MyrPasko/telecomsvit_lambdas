@@ -1,5 +1,6 @@
 const awsServerlessExpress = require('aws-serverless-express');
 const app = require('./app');
+const {v4 : uuidv4} = require('uuid')
 
 /**
  * @type {import('http').Server}
@@ -13,9 +14,13 @@ exports.handler = async (event, context) => {
   try {
     console.log(`EVENT: ${JSON.stringify(event)}`);
 
+    const id = uuidv4();
+
+    const body = {...JSON.parse(event.body), id, created_at: new Date().toISOString()}
+
     // Regenerate the previous request
     const requestData = {
-      body: event.body,
+      body: JSON.stringify(body),
       headers: event.headers,
       httpMethod: event.httpMethod,
       isBase64Encoded: event.isBase64Encoded,

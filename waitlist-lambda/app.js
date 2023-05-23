@@ -23,7 +23,7 @@ if (process.env.ENV && process.env.ENV !== "NONE") {
 }
 
 const userIdPresent = false; // TODO: update in case is required to use that definition
-const path = '/waitlistapi1'
+const path = '/waitlist'
 const UNAUTH = 'UNAUTH';
 
 // declare a new express app

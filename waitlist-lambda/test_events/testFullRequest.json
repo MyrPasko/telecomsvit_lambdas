@@ -1,6 +1,6 @@
 {
-  "resource": "/waitlistapi1",
-  "path": "/waitlistapi1",
+  "resource": "/waitlist",
+  "path": "/waitlist",
   "httpMethod": "POST",
   "headers": {
     "Accept": "*/*",
@@ -52,11 +52,11 @@
   "stageVariables": null,
   "requestContext": {
     "resourceId": "ni0e5k",
-    "resourcePath": "/waitlistapi1",
+    "resourcePath": "/waitlist",
     "httpMethod": "POST",
     "extendedRequestId": "FIJuPGxaFiAFWqQ=",
     "requestTime": "18/May/2023:16:46:18 +0000",
-    "path": "/stage/waitlistapi1",
+    "path": "/stage/waitlist",
     "accountId": "596256565227",
     "protocol": "HTTP/1.1",
     "stage": "stage",

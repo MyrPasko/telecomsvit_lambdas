@@ -1,6 +1,6 @@
 {
   "httpMethod": "POST",
-  "path": "/waitlistapi1",
+  "path": "/waitlist",
   "queryStringParameters": {
     "limit": "10"
   },
